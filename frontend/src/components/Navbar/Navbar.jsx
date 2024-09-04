@@ -52,7 +52,7 @@ const Navbar = ({ setShowLogin }) => {
           contact Us
         </a>
         <a
-          href="https://food-del-admin-g8vj.onrender.com"
+          href="https://mohan-food-del-admin.onrender.com"
           onClick={() => setMenu("admin")}
           className={menu === "admin" ? "active" : ""}
         >
