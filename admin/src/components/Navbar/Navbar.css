@@ -5,6 +5,16 @@
   padding: 8px 4%;
 }
 
+.navbar a {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  background-color: tomato;
+  padding: 20px;
+  border: none;
+  border-radius: 50%;
+}
+
 .navbar .logo {
   width: max(10%, 80px);
 }
