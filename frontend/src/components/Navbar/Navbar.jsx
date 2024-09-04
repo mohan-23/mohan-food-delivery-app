@@ -51,6 +51,13 @@ const Navbar = ({ setShowLogin }) => {
         >
           contact Us
         </a>
+        <a
+          href="https://food-del-admin-g8vj.onrender.com"
+          onClick={() => setMenu("admin")}
+          className={menu === "admin" ? "active admin-part" : ""}
+        >
+          admin
+        </a>
       </ul>
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" />
