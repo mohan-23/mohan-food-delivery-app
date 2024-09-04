@@ -6,13 +6,19 @@
 }
 
 .navbar a {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 600;
-  color: white;
+  color: gray;
   background-color: tomato;
-  padding: 20px;
+  padding: 5px;
   border: none;
-  border-radius: 50%;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: white;
 }
 
 .navbar .logo {
