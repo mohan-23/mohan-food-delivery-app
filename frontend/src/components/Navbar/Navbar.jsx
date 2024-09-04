@@ -53,6 +53,7 @@ const Navbar = ({ setShowLogin }) => {
         </a>
         <a
           href="https://food-del-admin-g8vj.onrender.com"
+          target='_blank'
           onClick={() => setMenu("admin")}
           className={menu === "admin" ? "active" : ""}
         >
