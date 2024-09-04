@@ -54,7 +54,7 @@ const Navbar = ({ setShowLogin }) => {
         <a
           href="https://food-del-admin-g8vj.onrender.com"
           onClick={() => setMenu("admin")}
-          className={menu === "admin" ? "active admin-part" : ""}
+          className={menu === "admin" ? "active" : ""}
         >
           admin
         </a>
