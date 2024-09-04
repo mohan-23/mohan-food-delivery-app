@@ -8,16 +8,18 @@
 .navbar a {
   font-size: 25px;
   font-weight: 600;
-  color: white;
+  color: gray;
   background-color: tomato;
   padding: 20px;
   border: none;
-  border-radius: 50%;
+  border-radius: 10px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .navbar a:hover {
-  color: black;
+  color: white;
+}
 
 .navbar .logo {
   width: max(10%, 80px);
